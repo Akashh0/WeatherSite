@@ -20,7 +20,6 @@ function App() {
       <div style={{ marginTop: "60px" }}>
         <Home />
       </div>
-      <NewsCarousel />
       <WeatherFetcher />
       <Footer />
     </div>
