@@ -11,7 +11,7 @@ const NewsCarousel = () => {
     const fetchNews = async () => {
       try {
         const response = await fetch(
-          `https://newsapi.org/v2/everything?q=("climate" AND "weather")&language=en&sortBy=publishedAt&pageSize=5&apiKey=aa1ba9b441414a9c9605076752b63697`
+          `https://newsapi.org/v2/everything?q=("climate" AND "weather")&language=en&sortBy=publishedAt&pageSize=5&apiKey=88f54fc81dbbe7ad1462c6a4de9800d7`
         );
         const data = await response.json();
         if (data.articles) {
