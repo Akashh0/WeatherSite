@@ -3,9 +3,9 @@ import react from "@vitejs/plugin-react-swc";
 import cesium from "vite-plugin-cesium";
 
 export default defineConfig({
-  base: "/WeatherSite/", // ⚠️ MATCHES your repo name exactly
+  base: "/WeatherSite/", // ✅ your GitHub repo name
   plugins: [react(), cesium()],
   define: {
-    CESIUM_BASE_URL: JSON.stringify("/WeatherSite/cesium")
+    CESIUM_BASE_URL: JSON.stringify("/WeatherSite/WeatherSite/cesium") // double WeatherSite path
   }
 });
