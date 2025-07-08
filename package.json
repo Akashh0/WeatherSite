@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --git git"
+    "deploy": "gh-pages -d dist"
+
   },
   "resolutions": {
     "cesium": "^1.107.0"
