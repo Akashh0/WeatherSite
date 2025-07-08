@@ -6,6 +6,6 @@ export default defineConfig({
   base: "/WeatherSite/", // ✅ your GitHub repo name
   plugins: [react(), cesium()],
   define: {
-    CESIUM_BASE_URL: JSON.stringify("/WeatherSite/WeatherSite/cesium") // double WeatherSite path
+    CESIUM_BASE_URL: JSON.stringify("/WeatherSite/cesium") // double WeatherSite path
   }
 });
